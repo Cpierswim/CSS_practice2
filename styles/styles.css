@@ -155,4 +155,32 @@ nav {
   }
 
   
+  .another_custom_layout{
+    display: flex;
+    justify-content: space-around;
+  }
 
+  .column_layout{
+    display:  flex;
+    flex-direction: column;
+  }
+
+  .another_custom_layout > p {
+    width: 400px;
+    border-style: solid;
+    border-radius: 10%;
+    border-width: 1px;
+    padding: 10px 20px;
+    text-align: justify;
+  }
+
+  .column_layout > p{
+    display:  flex;
+    flex-direction: column;
+    width: 400px;
+    border-style: solid;
+    border-radius: 10%;
+    border-width: 1px;
+    padding: 10px 20px;
+    text-align: justify;
+  }
