@@ -1,0 +1,158 @@
+
+/* This will apply all included styles to the header element */
+header{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* This will apply all included styles to any element which uses the "logo" class*/
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -75px;
+}
+
+/* This will apply any included styles to the body element */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(153,255,255);
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Create your own classes below! */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+
+nav {
+    position: sticky;
+    top: 0;
+}
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .styled_p {
+    width: 400px;
+    border-style: solid;
+    border-radius: 10%;
+    border-width: 1px;
+    padding: 10px 20px;
+    text-align: justify;
+  }
+
+  .reddish_background{
+    background-color: rgb(255,153,153);
+  }
+
+  section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .custom_flow{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .custom_flow > p {
+    width: 400px;
+    border-style: solid;
+    border-radius: 10%;
+    border-width: 1px;
+    padding: 10px 20px;
+    text-align: justify;
+  }
+
+  .custom_flow > img {
+    width: 400px;
+    border-style: solid;
+    border-radius: 10%;
+    border-width: 1px;
+
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    object-fit:cover;
+  }
+
+  .custom_flow > p:nth-child(odd){
+    background-color: rgb(255,153,153);
+  }
+
+  .custom_flow > p:nth-child(even){
+    background-color: rgb(153,255,255);
+  }
+
+  .custom_flow_vertical {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .div1 {
+    background-color: rgb(255,255,153);
+    height: 100vh;
+    margin-left: -15px;
+    width: calc(100% + 30px);
+  }
+
+  .div2{
+    background-color: rgb(255,153,153);
+    margin-left: -15px;
+    width: calc(100% + 30px);
+    height: 100vh;
+  }
+
+  .div3{
+    background-image: url("../images/coffee.jpg");
+    background-repeat: repeat;
+    margin-left: -15px;
+    width: calc(100% + 30px);
+    height: 100vh;
+  }
+
+  .div4{
+    background-image: url("../images/coffee.jpg");
+    background-repeat: no-repeat;
+    margin-left: -15px;
+    width: calc(100% + 30px);
+    height: 100vh;
+  }
+
+  .div5{
+    background-image: url("../images/coffee.jpg");
+    background-size: cover;
+    margin-left: -15px;
+    width: calc(100% + 30px);
+    height: 100vh;
+  }
+
+  
+
